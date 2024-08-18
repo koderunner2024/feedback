@@ -1,0 +1,32 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask specific
+instance/
+*.sqlite
+*.pyc
+
+# Python-specific package files
+*.egg-info/
+*.egg
+*.pyd
+*.so
+*.whl
+*.pyo
+
+# macOS specific
+.DS_Store
+
+# Visual Studio Code settings
+.vscode/
